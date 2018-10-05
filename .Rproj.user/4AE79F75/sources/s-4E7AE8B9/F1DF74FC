@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1538661191291.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "F1DF74FC",
+    "lastKnownWriteTime" : 1535607804,
+    "last_content_update" : 1535607804,
+    "path" : "C:/Users/Jared/OneDrive/Civilytics/Projects/SDP Workshops/DENVER/SyntaxGuide/data/gen_ews_data.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "116,43",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

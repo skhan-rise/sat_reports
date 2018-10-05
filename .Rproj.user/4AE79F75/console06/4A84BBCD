@@ -1,0 +1,19 @@
+[0m[0Kg[0K]0;jared@Legendre: /mnt/c/Users/Jared/GitHub/sat_reports[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ g[0K[?25lg[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$[0K[56G[?25h[?25lg[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ g[0K[?25hi[0Kt[0K[60G[?25lg[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git p[0K[?25hu[0Kl[0K[?25ll[0K[63G[?25h[64G[65G[?25lg[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git pull o[0K[65G[?25h[66G[?25lg[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git pull or[0K[?25hi[0Kg[0Ki[0Kn[0K[72G[?25lg[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git pull origin m[0K[?25ha[0Ks[0Kt[0Ke[0Kr[0K[?25l
+[0K[?25hEnter passphrase for key '/home/jared/.ssh/id_rsa':[0K[53G[?25l
+[0K[?25hremote: Enumerating objects: 10, done.[0K[?25l
+remote: Counting objects: 100% (10/10), done.[0K
+remote: Compressing objects: 100% (8/8), done.[0K
+[0K[?25h[?25lUnpacking objects:  50% (4/8)[0K[1G[?25hremote: Total 8 (delta 3), reused 0 (delta 0), pack-reused 0[0K[?25l
+[0K[?25hUnpacking objects: 100% (8/8), done.[0K[?25l
+[0K[?25hFrom github.com:skhan-rise/sat_reports[0K[?25l
+ * branch            master     -> FETCH_HEAD[0K
+   a2b44ad..455fe07  master     -> origin/master[0K
+[0K[?25hUpdating a2b44ad..455fe07[0K[?25l
+[0K[?25hFast-forward[0K[?25l
+[0K[?25h man/Data_Layout_SAT.pdf | Bin [0;31m0[0m -> [0;32m1273927[0m bytes[0K[?25l
+ man/SAT_Links           |   2 [0;32m++[0m[0K
+ 2 files changed, 2 insertions(+)[0K
+ create mode 100644 man/Data_Layout_SAT.pdf[0K
+ create mode 100644 man/SAT_Links[0K
+]0;jared@Legendre: /mnt/c/Users/Jared/GitHub/sat_reports[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$[0K[55G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ g[0K[?25hi[0Kt[0K[59G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git a[0K[?25hd[0Kd[0K[63G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git add -[0K[?25hA[0K[?25l
+[0K[?25h
