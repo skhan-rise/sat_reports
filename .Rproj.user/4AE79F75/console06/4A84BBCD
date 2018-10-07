@@ -1,127 +1,0 @@
-[0m[0Kg[0K]0;jared@Legendre: /mnt/c/Users/Jared/GitHub/sat_reports[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ g[0K[?25lg[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$[0K[56G[?25h[?25lg[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ g[0K[?25hi[0Kt[0K[60G[?25lg[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git p[0K[?25hu[0Kl[0K[?25ll[0K[63G[?25h[64G[65G[?25lg[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git pull o[0K[65G[?25h[66G[?25lg[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git pull or[0K[?25hi[0Kg[0Ki[0Kn[0K[72G[?25lg[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git pull origin m[0K[?25ha[0Ks[0Kt[0Ke[0Kr[0K[?25l
-[0K[?25hEnter passphrase for key '/home/jared/.ssh/id_rsa':[0K[53G[?25l
-[0K[?25hremote: Enumerating objects: 10, done.[0K[?25l
-remote: Counting objects: 100% (10/10), done.[0K
-remote: Compressing objects: 100% (8/8), done.[0K
-[0K[?25h[?25lUnpacking objects:  50% (4/8)[0K[1G[?25hremote: Total 8 (delta 3), reused 0 (delta 0), pack-reused 0[0K[?25l
-[0K[?25hUnpacking objects: 100% (8/8), done.[0K[?25l
-[0K[?25hFrom github.com:skhan-rise/sat_reports[0K[?25l
- * branch            master     -> FETCH_HEAD[0K
-   a2b44ad..455fe07  master     -> origin/master[0K
-[0K[?25hUpdating a2b44ad..455fe07[0K[?25l
-[0K[?25hFast-forward[0K[?25l
-[0K[?25h man/Data_Layout_SAT.pdf | Bin [0;31m0[0m -> [0;32m1273927[0m bytes[0K[?25l
- man/SAT_Links           |   2 [0;32m++[0m[0K
- 2 files changed, 2 insertions(+)[0K
- create mode 100644 man/Data_Layout_SAT.pdf[0K
- create mode 100644 man/SAT_Links[0K
-]0;jared@Legendre: /mnt/c/Users/Jared/GitHub/sat_reports[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$[0K[55G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ g[0K[?25hi[0Kt[0K[59G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git a[0K[?25hd[0Kd[0K[63G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git add -[0K[?25hA[0K[?25l
-[0K[?25h[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$[0K[55G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ g[0K[?25h[?25li[0K[56G[?25h[57G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git[0K[?25h[59G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git c[0K[59G[?25h[60G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git co[0K[?25hm[0Km[0Ki[0K[?25lt[0K[64G[?25h[65G[66G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git commit -[0K[?25hm[0K[69G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git commit -m "[0K[69G[?25h[70G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git commit -m "d[0K[?25hr[0Ka[0Kf[0Kt[0K[76G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git commit -m "draft o[0K[?25hf[0K[79G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git commit -m "draft of d[0K[?25ha[0K[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git commit -m "draft of d[0K[?25h[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git commit -m "draft of[0K[79G[?25h[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git commit -m "draft of s[0K[?25hi[0Km[0K[83G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git commit -m "draft of sim d[0K[?25ha[0Kt[0Ka[0K[88G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git commit -m "draft of sim data f[0K[?25hu[0Kn[0Kc[0Kt[0Ki[0Ko[0Kn[0K[?25ls[0K[96G[?25h[97G[98G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git commit -m "draft of sim data functions r[0K[98G[?25h[99G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git commit -m "draft of sim data functions re[0K[?25ha[0K[?25ld[0K[101G[?25h[102G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git commit -m "draft of sim data functions ready[0K[?25h"[0K[?25l
-[0K[?25h[master 2c9e3e0] draft of sim data functions ready[0K[?25l
- 44 files changed, 2208 insertions(+), 502 deletions(-)[0K
- create mode 100644 .Rhistory[0K
- create mode 100644 .Rproj.user/4AE79F75/console06/4A84BBCD[0K
- create mode 100644 .Rproj.user/4AE79F75/console06/INDEX001[0K
- create mode 100644 .Rproj.user/4AE79F75/pcs/debug-breakpoints.pper[0K
- create mode 100644 .Rproj.user/4AE79F75/pcs/files-pane.pper[0K
- create mode 100644 .Rproj.user/4AE79F75/pcs/source-pane.pper[0K
- create mode 100644 .Rproj.user/4AE79F75/pcs/windowlayoutstate.pper[0K
- create mode 100644 .Rproj.user/4AE79F75/pcs/workbench-pane.pper[0K
- create mode 100644 .Rproj.user/4AE79F75/persistent-state[0K
- create mode 100644 .Rproj.user/4AE79F75/rmd-outputs[0K
- create mode 100644 .Rproj.user/4AE79F75/saved_source_markers[0K
- create mode 100644 .Rproj.user/4AE79F75/sources/prop/61636DA2[0K
- create mode 100644 .Rproj.user/4AE79F75/sources/prop/AED7443B[0K
- create mode 100644 .Rproj.user/4AE79F75/sources/prop/C55F89CD[0K
- create mode 100644 .Rproj.user/4AE79F75/sources/prop/E7FE4CDC[0K
- create mode 100644 .Rproj.user/4AE79F75/sources/prop/EBCE5C27[0K
- create mode 100644 .Rproj.user/4AE79F75/sources/prop/FF67C074[0K
- create mode 100644 .Rproj.user/4AE79F75/sources/prop/INDEX[0K
- create mode 100644 .Rproj.user/4AE79F75/sources/s-4E7AE8B9/61B951D7[0K
- create mode 100644 .Rproj.user/4AE79F75/sources/s-4E7AE8B9/61B951D7-contents[0K
- create mode 100644 .Rproj.user/4AE79F75/sources/s-4E7AE8B9/66F51CDA[0K
- create mode 100644 .Rproj.user/4AE79F75/sources/s-4E7AE8B9/66F51CDA-contents[0K
- create mode 100644 .Rproj.user/4AE79F75/sources/s-4E7AE8B9/932EB5CF-contents[0K
- create mode 100644 .Rproj.user/4AE79F75/sources/s-4E7AE8B9/E3239CAC[0K
- create mode 100644 .Rproj.user/4AE79F75/sources/s-4E7AE8B9/E3239CAC-contents[0K
- create mode 100644 .Rproj.user/4AE79F75/sources/s-4E7AE8B9/F1DF74FC[0K
- create mode 100644 .Rproj.user/4AE79F75/sources/s-4E7AE8B9/F1DF74FC-contents[0K
- create mode 100644 .Rproj.user/4AE79F75/sources/s-4E7AE8B9/lock_file[0K
- create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names[0K
- create mode 100644 .Rproj.user/shared/notebooks/paths[0K
- create mode 100644 R/sat_tools.R[0K
- delete mode 100644 contributor_guide/contributor_guide.md[0K
- delete mode 100644 contributor_guide/img/college_persistence.png[0K
- delete mode 100644 contributor_guide/img/commit_changes.png[0K
- delete mode 100644 contributor_guide/img/download_code.png[0K
- delete mode 100644 contributor_guide/img/go_to_repository.png[0K
- delete mode 100644 contributor_guide/img/import.png[0K
- delete mode 100644 contributor_guide/img/new_repository.png[0K
- delete mode 100644 contributor_guide/img/view_guide.png[0K
- create mode 100644 data/Deidentified Data.xlsx[0K[1G[?25h[?25l
- create mode 100644 data/gen_synth_data.R[0K
- delete mode 100644 man/sdp_coding_style_guide.pdf[0K
- delete mode 100644 man/sdp_data_specification_guide.pdf[0K
- create mode 100644 sat_reports.Rproj[0K
-[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$[0K[55G[?25h[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ g[0K[?25hi[0K[?25lt[0K[57G[?25h[58G[59G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git p[0K[?25hu[0K[?25ls[0K[61G[?25h[62G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git push[0K[62G[?25h[63G[64G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git push o[0K[?25h[?25lr[0K[65G[?25h[66G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git push ori[0K[?25hg[0Ki[0Kn[0K[71G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git push origin m[0K[?25ha[0Ks[0Kt[0K[?25le[0K[75G[?25h[76G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git push origin master[0K[?25h[?25l
-[0K[?25hEnter passphrase for key '/home/jared/.ssh/id_rsa':[0K[53G[?25l
-[0K[?25hCounting objects: 47, done.[0K[?25l
-Delta compression using up to 16 threads.[0K
-Compressing objects: 100% (41/41), done.[0K
-Writing objects:  76% (36/47)[0K[1G[?25hWriting objects: 100% (47/47), 57.35 KiB | 0 bytes/s, done.[0K[?25l
-Total 47 (delta 8), reused 0 (delta 0)[0K
-[0K[?25hremote: Resolving deltas: 100% (8/8), completed with 1 local object.[0K[?25l
-[0K[?25hTo git@github.com:skhan-rise/sat_reports.git[0K[?25l
-   455fe07..2c9e3e0  master -> master[0K
-]0;jared@Legendre: /mnt/c/Users/Jared/GitHub/sat_reports[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$[0K[55G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ g[0K[?25h[?25li[0K[56G[?25h[57G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git[0K[?25h[59G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git a[0K[?25hd[0Kd[0K[63G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git add -[0K[?25hA[0K[?25l
-[0K[?25h[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$[0K[55G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ g[0K[?25hi[0Kt[0K[59G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git c[0K[?25ho[0K[?25lm[0K[61G[?25h[62G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git comm[0K[?25hi[0Kt[0K[66G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git commit -[0K[?25hm[0K[69G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git commit -m "[0K[?25hi[0Kn[0Kc[0Kl[0Ku[0Kd[0Ke[0K[78G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git commit -m "include s[0K[?25hy[0Kn[0Kt[0Kh[0Ke[0Kt[0Ki[0Kc[0K[88G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git commit -m "include synthetic d[0K[88G[?25h[89G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git commit -m "include synthetic da[0K[?25ht[0Ka[0K,[0K[94G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git commit -m "include synthetic data, m[0K[?25hi[0Kn[0Ko[0Kr[0K[100G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git commit -m "include synthetic data, minor f[0K[?25ho[0Kr[0K[?25lm[0K[103G[?25h[104G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git commit -m "include synthetic data, minor forma[0K[?25h[?25lt[0K[105G[?25h[106G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git commit -m "include synthetic data, minor formatt[0K[?25hi[0Kn[0Kg[0K[?25l
-[0K[?25ht[0Kw[0K[?25le[0K[3G[?25h[4G[?25ltwes[0K[?25h[?25ltwe[0K[5G[?25h[4G[?25ltwea[0K[?25h[?25lk[0K[5G[?25h[6G[?25ltweaks[0K[?25h[8G[?25ltweaks t[0K[?25ho[0K[11G[?25ltweaks to R[0K[11G[?25h[12G[?25ltweaks to Rm[0K[?25hD[0K[?25ltweaks to Rm[0K[?25hd[0K)[0K[?25ltweaks to Rmd[0K[?25h"[0K[?25l
-[0K[?25h[master 2ae7750] include synthetic data, minor formatting tweaks to Rmd[0K[?25l
-[0K[?25h 27 files changed, 41440 insertions(+), 1033 deletions(-)[0K[?25l
- rewrite .Rhistory (81%)[0K
- rewrite .Rproj.user/4AE79F75/console06/INDEX001 (85%)[0K
- delete mode 100644 .Rproj.user/4AE79F75/sources/s-4E7AE8B9/61B951D7-contents[0K
- delete mode 100644 .Rproj.user/4AE79F75/sources/s-4E7AE8B9/932EB5CF-contents[0K
- delete mode 100644 .Rproj.user/4AE79F75/sources/s-4E7AE8B9/F1DF74FC[0K
- rename .Rproj.user/4AE79F75/sources/{s-4E7AE8B9 => s-82A78FE0}/61B951D7 (76%)[0K
- create mode 100644 .Rproj.user/4AE79F75/sources/s-82A78FE0/61B951D7-contents[0K
- rename .Rproj.user/4AE79F75/sources/{s-4E7AE8B9 => s-82A78FE0}/66F51CDA (90%)[0K
- rename .Rproj.user/4AE79F75/sources/{s-4E7AE8B9 => s-82A78FE0}/66F51CDA-contents (100%)[0K
- rename .Rproj.user/4AE79F75/sources/{s-4E7AE8B9 => s-82A78FE0}/E3239CAC (91%)[0K
- rename .Rproj.user/4AE79F75/sources/{s-4E7AE8B9 => s-82A78FE0}/E3239CAC-contents (100%)[0K
- rename .Rproj.user/4AE79F75/sources/{s-4E7AE8B9 => s-82A78FE0}/F1DF74FC-contents (100%)[0K
- rename .Rproj.user/4AE79F75/sources/{s-4E7AE8B9 => s-82A78FE0}/lock_file (100%)[0K
- create mode 100644 .Rproj.user/shared/notebooks/8428F709-SAT Report Draft/1/4AE79F756FF4D654/chunks.json[0K
- create mode 100644 .Rproj.user/shared/notebooks/8428F709-SAT Report Draft/1/4AE79F7582A78FE0/chunks.json[0K
- create mode 100644 .Rproj.user/shared/notebooks/8428F709-SAT Report Draft/1/s/chunks.json[0K
- create mode 100644 .Rproj.user/shared/notebooks/8428F709-SAT Report Draft/1/s/csetup_chunk/000002.csv[0K
- create mode 100644 .Rproj.user/shared/notebooks/8428F709-SAT Report Draft/1/s/csetup_chunk/000003.error[0K
- create mode 100644 code/SAT_Report_Draft.pdf[0K
- create mode 100644 data/sat_synthetic_data.csv[0K
-[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$[0K[55G[?25h[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ g[0K[?25hi[0Kt[0K[59G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git p[0K[?25hu[0K[?25ls[0K[61G[?25h[62G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git push[0K[62G[?25h[63G[64G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git push o[0K[?25hr[0Ki[0Kg[0Ki[0Kn[0K[71G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git push origin m[0K[?25ha[0Ks[0K[?25lt[0K[74G[?25h[75G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git push origin maste[0K[?25hr[0K[?25l
-[0K[?25hEnter passphrase for key '/home/jared/.ssh/id_rsa':[0K[53G[?25l
-[0K[?25hCounting objects: 38, done.[0K[?25l
-Delta compression using up to 16 threads.[0K
-Compressing objects:  61% (21/34)[0K[1G[?25h[?25lCompressing objects:  76% (26/34)[0K[1G[?25h[?25lCompressing objects: 100% (34/34)[0K[1G[?25hCompressing objects: 100% (34/34), done.[0K[?25l
-Writing objects:  92% (35/38)[0K[1G[?25h[?25lWriting objects:  97% (37/38)[0K[1G[?25hWriting objects: 100% (38/38), 2.93 MiB | 4.25 MiB/s, done.[0K[?25l
-Total 38 (delta 8), reused 0 (delta 0)[0K
-[0K[?25h[?25lremote: Resolving deltas:   0% (0/8)[0K[1G[?25hremote: Resolving deltas: 100% (8/8), completed with 6 local objects.[0K[?25l
-[0K[?25hTo git@github.com:skhan-rise/sat_reports.git[0K[?25l
-   2c9e3e0..2ae7750  master -> master[0K
-[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$[0K[55G[?25h[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ d[0K[?25he[0Kv[0Kt[0Ko[0K[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ devt[0K[?25h[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ dev[0K[?25h[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ de[0K[?25h[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ d[0K[57G[?25h[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$[0K[56G[?25h[55G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ u[0K[?25hs[0Ke[0Kt[0Kh[0Ki[0Ks[0K:[0K:[0Kg[0Ki[0Kt[0KH[0K[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ usethis::git[0K[?25h[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ usethis::gi[0K[?25h[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ usethis::g[0K[?25h[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ usethis::[0K[?25h[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ usethis:[0K[?25h[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ usethis[0K[63G[?25h[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ usethi[0K[?25h[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ useth[0K[61G[?25h[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ uset[0K[60G[?25h[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ use[0K[59G[?25h[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ us[0K[58G[?25h[57G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ u[0K[?25h[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$[0K[55G[?25h[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ g[0K[?25hi[0Kt[0K[59G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git a[0K[?25hd[0Kd[0K[63G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git add -[0K[?25hA[0K[?25l
-[0K[?25h[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$[0K[55G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ g[0K[?25hi[0Kt[0K[59G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git c[0K[59G[?25h[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git co[0K[?25hm[0Km[0Ki[0Kt[0K[66G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git commit -[0K[?25hm[0K[69G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git commit -m "[0K[?25ha[0Kd[0K[?25ld[0K[72G[?25h[73G[74G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git commit -m "add g[0K[?25hi[0Kt[0Ki[0Kg[0K[?25ln[0K[79G[?25h[80G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git commit -m "add gitigno[0K[?25hr[0K[?25le[0K[82G[?25h[83G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git commit -m "add gitignore"[0K[?25h[?25l
-[0K[?25h[master ebfe4cb] add gitignore[0K[?25l
- 4 files changed, 38 insertions(+), 1 deletion(-)[0K
- create mode 100644 .gitignore[0K
-[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$[0K[55G[?25h[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ g[0K[?25hi[0Kt[0K[59G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git p[0K[?25hu[0Ks[0Kh[0K[64G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git push o[0K[?25hr[0Ki[0Kg[0K[?25li[0K[68G[?25h[69G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git push origin[0K[?25h[71G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git push origin m[0K[?25ha[0Ks[0K[?25lt[0K[74G[?25h[75G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git push origin maste[0K[?25h[?25lr[0K[76G[?25h[77G[?25l
-[0K[?25hEnter passphrase for key '/home/jared/.ssh/id_rsa':[0K[53G[?25l
-[0K[?25hCounting objects: 13, done.[0K[?25l
-Delta compression using up to 16 threads.[0K
-Compressing objects: 100% (11/11), done.[0K
-Writing objects: 100% (13/13), 2.07 KiB | 0 bytes/s, done.[0K
-Total 13 (delta 7), reused 0 (delta 0)[0K
-[0K[?25h[?25lremote: Resolving deltas:   0% (0/7)[0K[1G[?25hremote: Resolving deltas: 100% (7/7), completed with 7 local objects.[0K[?25l
-[0K[?25hTo git@github.com:skhan-rise/sat_reports.git[0K[?25l
-   2ae7750..ebfe4cb  master -> master[0K
-]0;jared@Legendre: /mnt/c/Users/Jared/GitHub/sat_reports[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$[0K[55G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ g[0K[55G[?25h[56G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ gi[0K[?25ht[0K[59G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git a[0K[?25hd[0Kd[0K[63G[?25l[0;32;92mjared@Legendre[0m:[0;34;94m/mnt/c/Users/Jared/GitHub/sat_reports[0m$ git add -[0K[?25hA[0K[66G[?25l
-[0K[?25h
