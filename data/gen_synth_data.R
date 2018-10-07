@@ -181,24 +181,3 @@ sat_report_cleaner <- function(simlist){
 
 
 out_data <- sat_report_cleaner(simlist)
-
-# COHORT_YEAR = ??
-# DISTRICT_NAME 
-# NAME_LAST = student last name
-# NAME_FIRST = student first name
-# NAME_MI = student middle initial
-# DERIVED_AGGREGATE_RACE_ETH = 2,3,4,9
-# CB_ID = sequential ID number
-# SECONDARY_ID = HS_student ID
-# PROJ_GRAD_DATE = YYYY-MM
-# LATEST_SAT_TOTAL = 400-1600
-# LATEST_SAT_EBRW = reading score 200-800
-# LATEST_SAT_MATH_SECTION = 200-800
-
-
-
-
-# Save
-# save(export, file = "data/synth_texas.rda")
-# write.csv(export, file = "data/synth_texas.csv", 
-#           row.names = FALSE)

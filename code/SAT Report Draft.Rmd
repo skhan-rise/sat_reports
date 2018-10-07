@@ -128,4 +128,28 @@ ggplot(sat_data, aes(x = LATEST_SAT_TOTAL)) +
 
 ```
 
+## Example Bar Charts
+
+
+```{r}
+
+# Data prep for school averages
+
+school_df <- sat_data %>% group_by(AI_NAME) %>%
+  summarize(sch_total_avg = mean(LATEST_SAT_TOTAL, na.rm=TRUE), 
+            sch_total_sd = sd(LATEST_SAT_TOTAL, na.rm = TRUE), 
+            sch_stu_count = n()) 
+
+ggplot(school_df, aes(x = AI_NAME, y = sch_total_avg, 
+                      ymin = sch_total_avg - sch_total_sd, 
+                      ymax = sch_total_avg + sch_total_sd)) + 
+  geom_errorbar(position = position_dodge(width = .5), width = 0.25) + 
+  geom_bar(stat = "identity", fill = "cyan", color = I("black"), 
+           position = position_dodge(width = .5), width = 0.5) + 
+      coord_cartesian(expand=FALSE) + theme_classic()
+  
+
+
+```
+
 
