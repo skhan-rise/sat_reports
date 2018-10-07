@@ -15,108 +15,114 @@ library(tidyverse)
 library(ggplot2)
 library(dplyr)
 library(knitr)
-data = read.csv("~/Data Projects/216854_SAT_20180504_100251.csv", header = TRUE, sep = ",")
+options(digits = 9)
+sat_data <- read.csv("../data/sat_synthetic_data.csv", 
+                     header = TRUE, stringsAsFactors = FALSE)
 ```
 
-#Executive Summary 
+# Executive Summary 
 The following report provides a high level overview of district and school level performance on the SAT assessment. The purpose of the report is to provide stakeholders, leaders, and community members with several points of analysis regarding high school academic performance of Sample Public Schools. 
 
-#Background
+# Background
 The College Board has established "college and career readiness" benchmark for the two sections of the new SAT. Meeting the benchmark means that students are on track for success beyond high school.  The target benchmark for Evidence Based Reading and Writing is 480, while the target for Math is 530. The College Board predicts that students who meet these benchmarks would earn a grade of a C or better in a first-semester college course. 
 
 # Understanding the data
-There are `r (nrow(data)-1)` students that took the SAT 11. These students come from `r n_distinct(data$AI_NAME)` unique schools.
 
-##Demographic Data
+There are `r print(nrow(sat_data)-1)` students that took the SAT 11. These students 
+come from `r n_distinct(sat_data$AI_NAME)` unique schools.
+
+## Demographic Data
+
 | Gender | Number of Students |
 |:--|:--:|
-| Male  | `r sum(data$SEX == "M")`
-| Female | `r sum(data$SEX == "F")`
+| Male  | `r sum(sat_data$SEX == "M")`
+| Female | `r sum(sat_data$SEX == "F")`
 
 
 | Ethnicity Categories | Number of Students |
 |:--|:--:|
-| Cuban  | `r sum(data$RACE_ETH_CUBAN == "Y")`
-| Mexican | `r sum(data$RACE_ETH_MEXICAN == "Y")`
-| Puerto Rican | `r sum(data$RACE_ETH_PUERTORICAN == "Y")`
-| Hispanic/Latino | `r sum(data$RACE_ETH_HISP_LAT == "Y")`
-| Non-Hispanic | `r sum(data$RACE_ETH_PUERTORICAN == "Y")`
+| Cuban  | `r sum(sat_data$RACE_ETH_CUBAN == "Y")`
+| Mexican | `r sum(sat_data$RACE_ETH_MEXICAN == "Y")`
+| Puerto Rican | `r sum(sat_data$RACE_ETH_PUERTORICAN == "Y")`
+| Hispanic/Latino | `r sum(sat_data$RACE_ETH_HISP_LAT == "Y")`
+| Non-Hispanic | `r sum(sat_data$RACE_ETH_PUERTORICAN == "Y")`
 
 | Race Categories | Number of Students |
 |:--|:--:|
-| American Indian/Alaska Native | `r sum(data$RACE_ETH_INDIAN_ALASKAN == "Y")`
-| Asian | `r sum(data$RACE_ETH_ASIAN == "Y")`
-| African American | `r sum(data$RACE_ETH_AFRICANAMERICAN == "Y")`
-| White | `r sum(data$RACE_ETH_WHITE == "Y")`
-| Native Hawaiian/Pacific Islander | `r sum(data$RACE_ETH_HAWAIIAN_PI == "Y")`
-| Other | `r sum(data$RACE_ETH_OTHER == "Y")`
+| American Indian/Alaska Native | `r sum(sat_data$RACE_ETH_INDIAN_ALASKAN == "Y")`
+| Asian | `r sum(sat_data$RACE_ETH_ASIAN == "Y")`
+| African American | `r sum(sat_data$RACE_ETH_AFRICANAMERICAN == "Y")`
+| White | `r sum(sat_data$RACE_ETH_WHITE == "Y")`
+| Native Hawaiian/Pacific Islander | `r sum(sat_data$RACE_ETH_HAWAIIAN_PI == "Y")`
+| Other | `r sum(sat_data$RACE_ETH_OTHER == "Y")`
 
 
-#Summary Statistics 
-The lowest score was a **`r min(data$LATEST_SAT_TOTAL)`** and the highest score was a **`r max(data$LATEST_SAT_TOTAL)`**. 
+# Summary Statistics 
+The lowest score was a **`r min(sat_data$LATEST_SAT_TOTAL)`** and the highest score was a **`r max(sat_data$LATEST_SAT_TOTAL)`**. 
 
-##Students Meeting College-Readiness Benchmarks
+## Students Meeting College-Readiness Benchmarks
+
 | Section | Number of Students | Percent of Total Students |
 |:--|:--:|:--:|
-| EBRW | `r EBRW <- nrow(data[data$LATEST_SAT_EBRW >= 480, ])` `r EBRW` | `r round((EBRW/ (nrow(data)-1))*100, 2)`%
-| Math | `r MATH_SECTION <- nrow(data[data$LATEST_SAT_MATH_SECTION >= 530, ])` `r MATH_SECTION` | `r round((MATH_SECTION/ (nrow(data)-1))*100, 2)`%
-| Both | `r Both_CR <- nrow(data[data$LATEST_SAT_MATH_SECTION >= 530 & data$LATEST_SAT_EBRW >= 480, ])` `r Both_CR` | `r round((Both_CR/ (nrow(data)-1))*100, 2)`%
+| EBRW | `r EBRW <- nrow(sat_data[sat_data$LATEST_SAT_EBRW >= 480, ])` `r EBRW` | `r round((EBRW/ (nrow(sat_data)-1))*100, 2)`%
+| Math | `r MATH_SECTION <- nrow(sat_data[sat_data$LATEST_SAT_MATH_SECTION >= 530, ])` `r MATH_SECTION` | `r round((MATH_SECTION/ (nrow(sat_data)-1))*100, 2)`%
+| Both | `r Both_CR <- nrow(sat_data[sat_data$LATEST_SAT_MATH_SECTION >= 530 & sat_data$LATEST_SAT_EBRW >= 480, ])` `r Both_CR` | `r round((Both_CR/ (nrow(sat_data)-1))*100, 2)`%
 
-##Average Total Scores
+## Average Total Scores
 
 | Total | EBRW | Math |
 |:--:|:--:|:--:|
-| `r round(mean(data$LATEST_SAT_TOTAL), 2)` | `r round(mean(data$LATEST_SAT_EBRW), 2)` | `r round(mean(data$LATEST_SAT_MATH_SECTION), 2)`
+| `r round(mean(sat_data$LATEST_SAT_TOTAL), 2)` | `r round(mean(sat_data$LATEST_SAT_EBRW), 2)` | `r round(mean(sat_data$LATEST_SAT_MATH_SECTION), 2)`
 
-###Average Total Scores Over Time
+### Average Total Scores Over Time
 |  | Total | EBRW | Math |
 |:--:|:--:|:--:|:--:|
-| SAT 11 | `r round(mean(data$LATEST_SAT_TOTAL), 2)` | `r round(mean(data$LATEST_SAT_EBRW), 2)` | `r round(mean(data$LATEST_SAT_MATH_SECTION), 2)`
+| SAT 11 | `r round(mean(sat_data$LATEST_SAT_TOTAL), 2)` | `r round(mean(sat_data$LATEST_SAT_EBRW), 2)` | `r round(mean(sat_data$LATEST_SAT_MATH_SECTION), 2)`
 
 
-##Average Sub-Section Scores
+## Average Sub-Section Scores
 
 | Reading | Writing & Language | Math Section |
 |:--:|:--:|:--:|
-| `r round(mean(data$LATEST_SAT_READING), 2)` | `r round(mean(data$LATEST_SAT_WRIT_LANG), 2)` | `r round(mean(data$LATEST_SAT_MATH_TEST), 2)`
+| `r round(mean(sat_data$LATEST_SAT_READING), 2)` | `r round(mean(sat_data$LATEST_SAT_WRIT_LANG), 2)` | `r round(mean(sat_data$LATEST_SAT_MATH_TEST), 2)`
 
-##Average Cross-Section Scores
+## Average Cross-Section Scores
 
 | Science Cross | History Cross | 
 |:--:|:--:|
-| `r round(mean(data$LATEST_SAT_SCI_CROSS), 2)` | `r round(mean(data$LATEST_SAT_HIST_SOCST_CROSS), 2)` |
+| `r round(mean(sat_data$LATEST_SAT_SCI_CROSS), 2)` | `r round(mean(sat_data$LATEST_SAT_HIST_SOCST_CROSS), 2)` |
 
-##Average EBRW Question-Type Scores
+## Average EBRW Question-Type Scores
 
 | Words in Context | Command of Evidence | Expression of Ideas | Standard English Conventions |
 |:------:|:------:|:------:|:-----------:|
-| `r round(mean(data$LATEST_SAT_WORDS_CONTEXT), 2)` | `r round(mean(data$LATEST_SAT_COMM_EVIDENCE), 2)` | `r round(mean(data$LATEST_SAT_EXPR_IDEAS), 2)` | `r round(mean(data$LATEST_SAT_ENG_CONVENT), 2)` 
+| `r round(mean(sat_data$LATEST_SAT_WORDS_CONTEXT), 2)` | `r round(mean(sat_data$LATEST_SAT_COMM_EVIDENCE), 2)` | `r round(mean(sat_data$LATEST_SAT_EXPR_IDEAS), 2)` | `r round(mean(sat_data$LATEST_SAT_ENG_CONVENT), 2)` 
 
-##Average Math Question-Type Scores
+## Average Math Question-Type Scores
 
 | Heart of Algebra | Advanced Mathematics | Problem Solving & Data Analysis |
 |:--:|:--:|:--:|
-| `r round(mean(data$LATEST_SAT_HEART_ALGEBRA), 2)` | `r round(mean(data$LATEST_SAT_ADV_MATH), 2)` | `r round(mean(data$LATEST_SAT_PROBSLV_DATA), 2)`
+| `r round(mean(sat_data$LATEST_SAT_HEART_ALGEBRA), 2)` | `r round(mean(sat_data$LATEST_SAT_ADV_MATH), 2)` | `r round(mean(sat_data$LATEST_SAT_PROBSLV_DATA), 2)`
 
 
-#Potential Graphs
+# Potential Graphs
 
-##Plot of EBRW by Math:
+## Plot of EBRW by Math:
 
 ```{r, warning = FALSE, message = FALSE}
-  ggplot(data, aes(x = data$LATEST_SAT_EBRW, y = data$LATEST_SAT_MATH_SECTION)) +
+  ggplot(sat_data, aes(x = LATEST_SAT_EBRW, y = LATEST_SAT_MATH_SECTION)) +
   geom_point() +
   geom_smooth() +
   labs(x = "EBRW", y = "Math", title = "Relationship between EBRW and Math Sections")
 ```
 
-##Histogram: 
+## Histogram: 
 
 ```{r}
-ggplot(data, aes(x = data$LATEST_SAT_TOTAL)) + 
+ggplot(sat_data, aes(x = LATEST_SAT_TOTAL)) + 
   geom_histogram(binwidth = 200, color = "mediumblue", fill = "steelblue2") +
   labs(x = "Total SAT Scores", y="Frequency", title="Distribution of Total SAT Scores") +
-  geom_vline(aes(xintercept=mean(data$LATEST_SAT_TOTAL)),
+  geom_vline(aes(xintercept=mean(sat_data$LATEST_SAT_TOTAL)),
             color="goldenrod2", linetype="dashed", size=1) + 
   theme_minimal()
 

@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1538775706814.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "22|1|26|0|\n55|70|64|0|\n76|40|179|0|\n",
+    "hash" : "0",
+    "id" : "66F51CDA",
+    "lastKnownWriteTime" : 1538778747,
+    "last_content_update" : 1538778747093,
+    "path" : "C:/Users/Jared/GitHub/sat_reports/data/gen_synth_data.R",
+    "project_path" : "data/gen_synth_data.R",
+    "properties" : {
+        "cursorPosition" : "183,0",
+        "scrollLine" : "67",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

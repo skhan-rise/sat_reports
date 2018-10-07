@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1536071716727.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "61B951D7",
+    "lastKnownWriteTime" : 1538870905,
+    "last_content_update" : 1538870905791,
+    "path" : "C:/Users/Jared/GitHub/sat_reports/code/SAT Report Draft.Rmd",
+    "project_path" : "code/SAT Report Draft.Rmd",
+    "properties" : {
+        "cursorPosition" : "17,19",
+        "last_setup_crc32" : "82A78FE01f973fc1",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

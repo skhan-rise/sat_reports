@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1538778719952.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "E3239CAC",
+    "lastKnownWriteTime" : 1538778728,
+    "last_content_update" : 1538778728694,
+    "path" : "C:/Users/Jared/GitHub/sat_reports/R/sat_tools.R",
+    "project_path" : "R/sat_tools.R",
+    "properties" : {
+        "cursorPosition" : "88,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
